@@ -23,6 +23,10 @@ a {
     font-size: 18px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -53,6 +57,15 @@ a {
    
 }
 
+.man-image img {
+    display: flex;
+    max-width: 450px;
+    max-height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .header-subtext {
     font-size: 18px;
     color: #e5e7eb;
@@ -78,13 +91,13 @@ button.sign-up {
     background: #3882f6;
     color: #e5e7eb;
     border: 1px black;
+    font-weight: bold;
 }
 
 
 .header-body {
     display: flex;
     flex-direction: column;
-    flex: 1;
     max-width: 450px;
     flex-wrap: wrap;
     margin-right: 50px;
@@ -92,14 +105,7 @@ button.sign-up {
     padding: 16px;
 }
 
-img {
-    display: flex;
-    max-width: 400px;
-    max-height: 400px;
-    flex: 1;
-    padding: 16px;
-}
-/* end of body container*/
+/* end of header-body container*/
 
 .header-content {
     background-color: #1F2937;
@@ -110,50 +116,41 @@ img {
 }
 /* End of header content*/
 
-.b1-section-container {
+.b1-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1;
     background-color: white;
 }
 
-.b1-section-header {
+.b1-title {
     display: flex;
     justify-content: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
-}
-
-.img-one {
-    display: flex;
-    max-width: 250px;
-    max-height: 150px;
-    flex-wrap: wrap;
-}
-
-.img-two {
-    display: flex;
-    max-width: 250px;
-    max-height: 150px;
-}
-
-.img-three {
-    display: flex;
-    max-width: 250px;
-    max-height: 150px;
-}
-
-.img-four {
-    display: flex;
-    max-width: 250px;
-    max-height: 150px;
 }
 
 .b1-section-body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.info { 
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 8px;
+}
+
+.b1-image {
+    
+}
+
+.img-subtext {
+    font-size: 18px;
 }
