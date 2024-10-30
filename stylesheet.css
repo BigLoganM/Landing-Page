@@ -25,8 +25,10 @@ a {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
 
+/* contains the links and logo*/
 .header-top {
     display: flex;
     justify-content: space-around;
@@ -34,10 +36,73 @@ a {
 
 }
 
+/* this container holds all of the body classes */
+.header-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    display: flex;
+   
+}
+
+.header-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100px;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 8px;
+
+}
+
+button.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882f6;
+    color: #e5e7eb;
+    border: 1px black;
+}
+
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 450px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+img {
+    display: flex;
+    max-width: 400px;
+    max-height: 350px;
+    flex: 1;
+}
+/* end of body container*/
+
 .header-content {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     flex: 1;
-}
 
+}
+/* End of header content*/
