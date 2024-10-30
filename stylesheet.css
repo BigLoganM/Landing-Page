@@ -115,6 +115,19 @@ img {
     flex-direction: column;
     flex: 1;
     background-color: white;
+}
+
+.b1-section-header {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.img-one {
+    box-sizing: border-box;
+    border-color: #3882f6;
+
 }
