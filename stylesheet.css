@@ -81,20 +81,23 @@ button.sign-up {
 
 
 .header-body {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     flex: 1;
     max-width: 450px;
     flex-wrap: wrap;
-    margin-right: 100px;
+    margin-right: 50px;
     gap: 20px;
+    padding: 16px;
 }
 
 img {
     display: flex;
     max-width: 400px;
-    max-height: 350px;
+    max-height: 400px;
     flex: 1;
+    padding: 16px;
 }
 /* end of body container*/
 
@@ -106,3 +109,4 @@ img {
 
 }
 /* End of header content*/
+
