@@ -124,6 +124,7 @@ img {
     color: #1F2937;
     font-weight: 900;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .img-one {
@@ -143,3 +144,8 @@ img {
 
 }
 
+.b1-section-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
