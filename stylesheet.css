@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 
 }
 
@@ -81,7 +82,6 @@ button.sign-up {
 
 
 .header-body {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -128,20 +128,28 @@ img {
 }
 
 .img-one {
-
-
+    display: flex;
+    max-width: 250px;
+    max-height: 150px;
+    flex-wrap: wrap;
 }
 
 .img-two {
-
+    display: flex;
+    max-width: 250px;
+    max-height: 150px;
 }
 
 .img-three {
-
+    display: flex;
+    max-width: 250px;
+    max-height: 150px;
 }
 
 .img-four {
-
+    display: flex;
+    max-width: 250px;
+    max-height: 150px;
 }
 
 .b1-section-body {
