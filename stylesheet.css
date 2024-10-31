@@ -22,10 +22,11 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+ img {
+    max-width: 400px;
+    max-height: 400px;
+ }
 
-img {
-    max-width: 100%;
-}
 
 .header-logo {
     font-size: 24px;
@@ -41,7 +42,7 @@ img {
 
 }
 
-/* this container holds all of the body classes */
+/* this container holds all of the  header-body classes */
 .header-body-container {
     display: flex;
     justify-content: center;
@@ -49,108 +50,127 @@ img {
     flex: 1;
 }
 
-.header-title {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-    display: flex;
-   
-}
-
-.man-image img {
-    display: flex;
-    max-width: 450px;
-    max-height: 450px;
-    justify-content: center;
-    align-items: center;
-}
+    .header-title {
+        font-size: 48px;
+        color: #f9faf8;
+        font-weight: 900;
+        display: flex;
+    
+    }
 
 
-.header-subtext {
-    font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
+    .header-subtext {
+        font-size: 18px;
+        color: #e5e7eb;
+        display: flex;
 
-}
+    }
 
-button {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-width: 100px;
-    cursor: pointer;
-    padding: 6px 16px;
-    border-radius: 8px;
+    button {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 100px;
+        cursor: pointer;
+        padding: 6px 16px;
+        border-radius: 8px;
 
-}
+    }
 
-button.sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #3882f6;
-    color: #e5e7eb;
-    border: 1px black;
-    font-weight: bold;
-}
+    button.sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #3882f6;
+        color: #e5e7eb;
+        border: 1px black;
+        font-weight: bold;
+    }
 
 
-.header-body {
-    display: flex;
-    flex-direction: column;
-    max-width: 450px;
-    flex-wrap: wrap;
-    margin-right: 50px;
-    gap: 20px;
-    padding: 16px;
-}
+    .header-body {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+        flex-wrap: wrap;
+        margin-right: 50px;
+        gap: 20px;
+        padding: 16px;
+    }
 
-/* end of header-body container*/
+    .place-holder {
+        display: flex;
+        background-color: grey;
+        max-width: 450px;
+        padding: 100px;
+        color: white;
+    }
 
-.header-content {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    /* end of header-body container*/
 
-}
+    .header-content {
+        background-color: #1F2937;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+    }
+
+
 /* End of header content*/
 
+/* holds the b1 content */
 .b1-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 1;
     background-color: white;
+    border: orange  solid;
+    flex: 1;
 }
 
-.b1-title {
-    display: flex;
-    justify-content: center;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
+    .b1-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+            .b1-title {
+                font-size: 36px;
+                color: #1F2937;
+                font-weight: 900;
+            }
 
-.b1-section-body {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 52px;
-}
 
-.info { 
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 8px;
-}
-
-.b1-image {
+    .b1-section-body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 52px;
+    }
     
-}
+            .info { 
+                max-width: 250px;
+                max-height: 250px;
+                margin-bottom: 100px
+            }
 
-.img-subtext {
-    font-size: 18px;
-}
+            .b1-image,
+            .info {
+                max-width: 200px;
+                max-height: 200px;
+            }
+
+            .b1-image {
+                border: #3882f6 solid 4px;
+                border-radius: 16px;
+                margin-bottom: 8px;
+                padding: 95px;
+            }
+
+
+            .img-subtext {
+                font-size: 18px;
+                font-weight: lighter;
+            }
