@@ -285,18 +285,17 @@ a {
 
     /* End of b3 content */
 
-    /* Start of footer */
+/* Start of footer */
 
-    .footer-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
-        background-color: #1f2937;
-        color: #e5e7eb;
-        font-size: 12px;
-
-    }
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 12px;
+}
 
         .footer-content {
             margin: 26px;
