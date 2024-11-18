@@ -176,6 +176,7 @@ a {
                 font-size: 18px;
                 font-weight: lighter;
             }
+
 /* End of b1 content */
 
 
@@ -190,33 +191,34 @@ a {
 
 }
 
-        .quote-container {
-            display: flex;
-            max-width: 850px;
-            margin-top: 70px;
-        }
+    .quote-container {
+        display: flex;
+        max-width: 850px;
+        margin-top: 70px;
+    }
 
-            .quote {
-                display: flex;
-                font-size: 36px;
-                font-weight: lighter;
-                color: #1f2937;
-                flex-wrap: wrap;
-            }
-        
-        .sender-container {
+        .quote {
             display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            max-width: 800px;
-            margin-bottom: 70px;
+            font-size: 36px;
+            font-weight: lighter;
+            color: #1f2937;
+            flex-wrap: wrap;
         }
-            .sender {
-                display: flex;
-                font-weight: bold;
-                justify-content: center;
-                font-size: 26px;
-            }
+        
+    .sender-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        max-width: 800px;
+        margin-bottom: 70px;
+    }
+        .sender {
+            display: flex;
+            font-weight: bold;
+            justify-content: center;
+            font-size: 26px;
+        }
+        
 /* End of b2 content */
 
 
@@ -243,24 +245,23 @@ a {
     border-radius: 8px;
 }
 
-        .words {
+    .words {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+         .call-to-action-container {
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-
         }
-
-            .call-to-action-container {
-                display: flex;
-            }
         
-                .call-to-action {
-                    display: flex;
-                    color: white;
-                    font-weight: bold;
-                    font-size: 16px;
-                }
+            .call-to-action {
+                display: flex;
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+            }
 
 
             .sign-up-container {
@@ -287,7 +288,7 @@ a {
         border-radius: 8px;
     }
 
-    /* End of b3 content */
+/* End of b3 content */
 
 /* Start of footer */
 
@@ -301,7 +302,8 @@ a {
     font-size: 12px;
 }
 
-        .footer-content {
-            margin: 26px;
-        }
-    /* End of footer */
+    .footer-content {
+        margin: 26px;
+    }
+
+/* End of footer */
