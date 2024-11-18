@@ -274,3 +274,15 @@ a {
     }
 
     /* End of b3 content */
+
+    /* Start of footer */
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        background-color: #1f2937;
+        color: white;
+
+    }
